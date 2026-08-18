@@ -1,6 +1,8 @@
-# NUEDC 电机控制
+# 2026 电赛 E 题
 
-本仓库包含 ESP32 电机固件、树莓派视觉程序和 Python 上位机调试工具
+2026 电赛 E 题浙江省一等奖
+
+基于 [NUEDC-Template](https://github.com/HZCU-Debug/NUEDC-Template) 开发
 
 ## 项目结构
 
