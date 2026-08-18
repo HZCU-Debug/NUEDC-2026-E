@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "default_device": "old_usb",
+  "runtime": {
+    "camera": 0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "rotate": 180,
+    "detect_every": 3,
+    "solver_workers": 3,
+    "best_effort_after_seconds": 90,
+    "web": false,
+    "port": 8080,
+    "serial_device": "/dev/serial0",
+    "serial_baud": 115200
+  },
+  "devices": {
+    "old_usb": {
+      "description": "Original EP20CC54K01-class USB camera",
+      "camera_controls_file": "camera_profiles/old_usb_camera.json",
+      "calibration_file": "calibrations/old_usb_camera.json"
+    },
+    "raspberrypi_a": {
+      "description": "RaspberryPi-A Microdia 0c45:6360 USB camera",
+      "camera_controls_file": "camera_profiles/raspberrypi_a_camera.json",
+      "calibration_file": "calibrations/raspberrypi_a_camera.json"
+    }
+  }
+}

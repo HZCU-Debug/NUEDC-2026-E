@@ -1,0 +1,23 @@
+{
+  "name": "old_usb_camera_ep20cc54k01",
+  "controls": {
+    "white_balance_automatic": 0,
+    "auto_exposure": 1,
+    "exposure_dynamic_framerate": 0,
+    "brightness": 0,
+    "contrast": 42,
+    "saturation": 64,
+    "hue": 0,
+    "gamma": 300,
+    "gain": 55,
+    "power_line_frequency": 1,
+    "white_balance_temperature": 4600,
+    "sharpness": 70,
+    "backlight_compensation": 0,
+    "exposure_time_absolute": 320,
+    "zoom_absolute": 0
+  },
+  "optional_controls": [
+    "exposure_dynamic_framerate"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "raspberrypi06_fixed_clean",
+  "controls": {
+    "white_balance_automatic": 1,
+    "auto_exposure": 1,
+    "exposure_dynamic_framerate": 0,
+    "exposure_time_absolute": 120,
+    "gain": 0,
+    "brightness": 0,
+    "contrast": 32,
+    "saturation": 64,
+    "hue": 0,
+    "gamma": 100,
+    "power_line_frequency": 1,
+    "sharpness": 3,
+    "backlight_compensation": 1
+  },
+  "optional_controls": []
+}

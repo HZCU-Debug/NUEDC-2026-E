@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "calibration_method": "fixed_upper_half_blue",
+  "calibration_region": "camera_upper_half",
+  "input_frame_size_px": [
+    1280,
+    720
+  ],
+  "calibration_points_px": [
+    [
+      249.99600219726562,
+      50.21500015258789
+    ],
+    [
+      1052.0,
+      69.37200164794922
+    ],
+    [
+      1052.0,
+      349.29400634765625
+    ],
+    [
+      246.76699829101562,
+      340.34600830078125
+    ]
+  ],
+  "calibration_points_mm": [
+    [
+      210.0,
+      0.0
+    ],
+    [
+      210.0,
+      297.0
+    ],
+    [
+      105.0,
+      297.0
+    ],
+    [
+      105.0,
+      0.0
+    ]
+  ],
+  "paper_corners_px": [
+    [
+      243.51300048828125,
+      632.822021484375
+    ],
+    [
+      249.99600219726562,
+      50.21500015258789
+    ],
+    [
+      1052.0,
+      69.37200164794922
+    ],
+    [
+      1052.0,
+      631.3980102539062
+    ]
+  ],
+  "paper_size_mm": [
+    210.0,
+    297.0
+  ],
+  "pixels_per_mm": 4.0,
+  "homography": [
+    [
+      -0.002510222,
+      -1.4252651578,
+      902.5505835704
+    ],
+    [
+      1.4126962657,
+      0.0157197435,
+      -353.9572922707
+    ],
+    [
+      -4.38855e-05,
+      1.32433e-05,
+      1.0
+    ]
+  ],
+  "blue_hue": 93,
+  "observed_half_aspect": 2.81985,
+  "calibration_score": -0.01011,
+  "global_x_range_mm": [
+    105.0,
+    210.0
+  ],
+  "global_y_range_mm": [
+    0.0,
+    297.0
+  ],
+  "canonical_orientation": "portrait",
+  "coordinate_system": {
+    "origin": "canonical_top_left",
+    "x_axis": "A4_short_edge_0_to_210_mm",
+    "y_axis": "A4_long_edge_0_to_297_mm"
+  },
+  "created_at": "2026-07-31 09:45:14"
+}

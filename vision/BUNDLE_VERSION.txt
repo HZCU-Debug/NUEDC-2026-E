@@ -1,0 +1,14 @@
+Bundle: vision_rpi_2026-08-04_dual_camera_wayland
+Core source commit: 2725521 Harden Mode 2 and 3 geometry solving
+Built: 2026-08-04 Asia/Shanghai
+Target: Raspberry Pi 4B/5, 64-bit Raspberry Pi OS
+Python: 3.7+
+Native verification baseline: 66 passed
+Forced Python fallback baseline: 62 passed, 4 skipped
+Camera devices: old_usb, raspberrypi_a
+Preview: local Wayland window (browser preview disabled)
+New-camera initial profile: raspberrypi06_fixed_clean
+Automatic solve deadline: 90 seconds, then best scored partial puzzle
+Last-resort fallback: safe compact transport only when no scored candidate exists
+Deadline modes: Mode1, Mode2, Mode3, Mode4 automatic ESP32 tasks
+Manual mode: no automatic deadline output

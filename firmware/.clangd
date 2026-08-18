@@ -1,0 +1,16 @@
+CompileFlags:
+  Remove:
+    - -mlongcalls
+    - -fstrict-volatile-bitfields
+    - -fno-tree-switch-conversion
+---
+If:
+  PathMatch: test/.*
+CompileFlags:
+  Compiler: clang++
+  Remove:
+    - -I*
+  Add:
+    - -Itest/support
+    - -Iinclude
+    - -Isrc

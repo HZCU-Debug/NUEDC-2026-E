@@ -1,0 +1,12 @@
+[project]
+name = "nuedc-motor-host"
+version = "0.1.0"
+description = "NUEDC host tools and vision mock"
+requires-python = ">=3.11"
+dependencies = [
+    "pygame>=2.6.1,<3",
+    "pyserial>=3.5,<4",
+]
+
+[tool.uv]
+package = false
